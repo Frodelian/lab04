@@ -1,0 +1,3 @@
+/home/oleg/lab03/solver_lib/built3/CMakeFiles/solver.dir
+/home/oleg/lab03/solver_lib/built3/CMakeFiles/edit_cache.dir
+/home/oleg/lab03/solver_lib/built3/CMakeFiles/rebuild_cache.dir
