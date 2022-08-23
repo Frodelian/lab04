@@ -1,0 +1,3 @@
+/home/oleg/lab03/formatter_ex_lib/build2/CMakeFiles/formatter_ex.dir
+/home/oleg/lab03/formatter_ex_lib/build2/CMakeFiles/edit_cache.dir
+/home/oleg/lab03/formatter_ex_lib/build2/CMakeFiles/rebuild_cache.dir
