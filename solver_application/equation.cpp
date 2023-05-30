@@ -17,9 +17,10 @@ int main(int argc, char* argv[])
     try
     {
         solve(a, b, c, x1, x2);
-        std::string
-        formatter(std::cout, "x1 = " + std::to_string(x1));
-        formatter(std::cout, "x2 = " + std::to_string(x2));
+        std::string temp1 = "x1 = " + std::to_string(x1);
+        std::string temp2 = "x2 = " + std::to_string(x2);
+        formatter(std::cout, temp1);
+        formatter(std::cout, temp2);
     }
     catch (const std::logic_error& ex)
     {
