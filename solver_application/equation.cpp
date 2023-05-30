@@ -18,12 +18,12 @@ int main(int argc, char* argv[])
     {
         solve(a, b, c, x1, x2);
 
-        formatter(std::cout, "x1 = " + std::to_string(x1));
-        formatter(std::cout, "x2 = " + std::to_string(x2));
+        formatter("x1 = " + std::to_string(x1));
+        formatter("x2 = " + std::to_string(x2));
     }
     catch (const std::logic_error& ex)
     {
-        formatter(std::cout, ex.what());
+        formatter(ex.what());
     }
 
     return 0;
