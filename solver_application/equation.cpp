@@ -17,13 +17,13 @@ int main(int argc, char* argv[])
     try
     {
         solve(a, b, c, x1, x2);
-
-        formatter("x1 = " + std::to_string(x1));
-        formatter("x2 = " + std::to_string(x2));
+        std::string
+        formatter(std::cout, "x1 = " + std::to_string(x1));
+        formatter(std::cout, "x2 = " + std::to_string(x2));
     }
     catch (const std::logic_error& ex)
     {
-        formatter(ex.what());
+        formatter(std::cout, ex.what());
     }
 
     return 0;
