@@ -9,7 +9,7 @@ int main(int argc, char* argv[])
     float b = int(*argv[2]) - 48;
     float c = int(*argv[3]) - 48;
 
-    std::cin >> a >> b >> c;
+    cin >> a >> b >> c;
 
     float x1 = 0;
     float x2 = 0;
@@ -17,14 +17,14 @@ int main(int argc, char* argv[])
     try
     {
         solve(a, b, c, x1, x2);
-        std::string temp1 = "x1 = " + std::to_string(x1);
-        std::string temp2 = "x2 = " + std::to_string(x2);
-        formatter(std::cout, temp1);
-        formatter(std::cout, temp2);
+        string temp1 = "x1 = " + to_string(x1);
+        string temp2 = "x2 = " + to_string(x2);
+        formatter(cout, temp1);
+        formatter(cout, temp2);
     }
-    catch (const std::logic_error& ex)
+    catch (const logic_error& ex)
     {
-        formatter(std::cout, ex.what());
+        formatter(cout, ex.what());
     }
 
     return 0;
