@@ -2,7 +2,7 @@
 
 #include "formatter_ex.h"
 #include "solver.h"
-
+using namespase std;
 int main(int argc, char* argv[])
 {
     float a = int(*argv[1]) - 48 ;
