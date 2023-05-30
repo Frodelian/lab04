@@ -2,10 +2,7 @@ cmake_minimum_required(VERSION 3.4)
 
 project(hello_world VERSION 0.0.1)
 
-add_executable(
-        hello_world
-        hello_world.cpp
-)
+add_executable(hello_world hello_world.cpp)
 
 set_target_properties(
         hello_world PROPERTIES
@@ -19,7 +16,4 @@ target_include_directories(
         ${CMAKE_CURRENT_SOURCE_DIR}/../formatter_ex_lib
 )
 
-target_link_libraries(
-        hello_world
-        formatter_ex
-)
+target_link_libraries(hello_world formatter_ex)
