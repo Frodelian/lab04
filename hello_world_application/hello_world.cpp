@@ -6,3 +6,4 @@ int main()
 {
     formatter(std::cout, "hello, world!");
 }
+

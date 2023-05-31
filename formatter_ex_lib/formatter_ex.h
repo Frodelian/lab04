@@ -4,3 +4,4 @@
 #include <iostream>
 
 std::ostream& formatter(std::ostream& out, const std::string& message);
+

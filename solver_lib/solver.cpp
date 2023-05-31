@@ -1,6 +1,7 @@
 #include "solver.h"
-#include <cmath>
+
 #include <stdexcept>
+#include <cmath>
 
 void solve(float a, float b, float c, float& x1, float& x2)
 {
@@ -14,3 +15,4 @@ void solve(float a, float b, float c, float& x1, float& x2)
     x1 = (-b - std::sqrt(d)) / (2 * a);
     x2 = (-b + std::sqrt(d)) / (2 * a);
 }
+

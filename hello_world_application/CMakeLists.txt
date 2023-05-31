@@ -5,15 +5,15 @@ project(hello_world VERSION 0.0.1)
 add_executable(hello_world hello_world.cpp)
 
 set_target_properties(
-        hello_world PROPERTIES
-        CXX_STANDARD 11
-        CXX_STANDARD_REQUIRED ON
+	hello_world PROPERTIES
+	CXX_STANDARD 11
+	CXX_STANDARD_REQUIRED ON
 )
 
 target_include_directories(
-        hello_world
-        PRIVATE
-        ${CMAKE_CURRENT_SOURCE_DIR}/../formatter_ex_lib
+	hello_world
+	PRIVATE
+	${CMAKE_CURRENT_SOURCE_DIR}/../formatter_ex_lib
 )
 
 target_link_libraries(hello_world formatter_ex)

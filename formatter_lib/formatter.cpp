@@ -8,3 +8,4 @@ std::string formatter(const std::string& message)
     res += "-------------------------\n";
     return res;
 }
+
